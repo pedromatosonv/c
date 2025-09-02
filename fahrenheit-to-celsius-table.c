@@ -1,13 +1,15 @@
 #include <stdio.h>
 
+/* print Fahrenheit-Celsius table
+ * for fahr = 0, 20, ..., 300 */	
 int main()
 {
 	int fahr, celsius;
 	int lower, step, upper;
 
-	lower = 0;
-	step = 20;
-	upper = 300;
+	lower = 0;	/* lower limit of temperature table */
+	upper = 300;	/* upper limit */
+	step = 20;	/* step size */
 
 	fahr = lower;
 
